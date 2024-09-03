@@ -1,0 +1,18 @@
+Native messaging host started
+reading
+Raw length data: b'asd\r'
+Message length: 224686945
+Native messaging host started
+reading
+Native messaging host started
+reading
+Native messaging host started
+reading
+Native messaging host started
+reading
+Native messaging host started
+reading
+Native messaging host started
+reading
+Native messaging host started
+reading

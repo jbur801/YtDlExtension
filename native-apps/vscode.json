@@ -1,9 +1,9 @@
 {
-    "name": "com.letcode.vscode",
+    "name": "com.ddddd.ytdlp",
     "description": "Open VSCode",
-    "path": "vs.bat",
+    "path": "yt-dlpHost.py",
     "type": "stdio",
     "allowed_origins": [
-        "chrome-extension://cmabedoojpbpdgkgofdiabfafamkbggn/"
+        "chrome-extension://mjidhcjkfbifjiogdkmckfebjfifllbc/"
     ]
 }

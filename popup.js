@@ -1,30 +1,47 @@
-let vscode = document.getElementById("vscode")
-let eclipse = document.getElementById("eclipse")
-let spotify = document.getElementById("spotify")
-let slack = document.getElementById("slack")
+let start = document.getElementById("start")
+let ping = document.getElementById("ping")
+let status = document.getElementById("status")
+
 
 var port = null;
+const spamPort = ()=>{
+    setTimeout(()=>{
+        if(port){
+            port.postMessage({example: 'Hello from Chrome Extension!'})
+            spamPort();
+        }else{
+            alert('no port')
+        }
 
-vscode.addEventListener('click', () => {
-    port = chrome.runtime.connectNative('com.letcode.vscode');
+    },100)
+}
+start.addEventListener('click', () => {
+    alert('trying to open vsCode')
+    chrome.runtime.sendNativeMessage('com.ddddd.yt-dlp',{'hello':'world'},console.log('Message sent to native app'))
+    port = chrome.runtime.connectNative('com.ddddd.ytdlp');
+    onConnect();
+
+    // // const callback =(res)=>alert(res);
+    // spamPort();
+    port.postMessage({example: 'Hello from Chrome Extension!'})
     onDisconnect();
 })
 
-eclipse.addEventListener('click', () => {
+ping.addEventListener('click', () => {
+    port ?port.postMessage({example: 'Hello from Chrome Extension!'}):alert('no port')
 })
 
-spotify.addEventListener('click', () => {
-    port = chrome.runtime.connectNative("com.letcode.sp")
-    onDisconnect();
-})
 
-slack.addEventListener('click', () => {
-})
 
 function onDisconnect() {
-    port.onDisconnect.addListener(function () {
-        if (chrome.runtime.lastError) {
-            console.log(chrome.runtime.lastError);
-        }
-    });
+    if(port){
+        port.onDisconnect.addListener(function () {
+            port = null;
+            if (chrome.runtime.lastError) {
+                alert(chrome.runtime.lastError.message);
+            }
+        });
+    }
+
 }
+
