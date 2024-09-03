@@ -35,21 +35,21 @@ def write_message(message):
 
 def main():
     log("Native messaging host started")
-   
-    while True:
-        message = read_message()
-        if message is None:
-            log("No message received or read failed")
-            continue
-        log(f"Processing message: {message}")
-        try:
-            # Assuming the message is a JSON string
-            received_data = json.loads(message)
-            response = {"status": "success", "received": received_data}
-        except json.JSONDecodeError as e:
-            response = {"status": "error", "message": f"Invalid JSON: {str(e)}"}
-        write_message(json.dumps(response))
-        log(f"Response sent: {json.dumps(response)}")
+    message = read_message()
+    if message is None:
+        log("No message received or read failed")
+        log("exiting...")
+        return
+    log(f"Processing message: {message}")
+    try:
+        # Assuming the message is a JSON string
+        received_data = json.loads(message)
+        response = {"status": "success", "received": received_data}
+    except json.JSONDecodeError as e:
+        response = {"status": "error", "message": f"Invalid JSON: {str(e)}"}
+    write_message(json.dumps(response))
+    log(f"Response sent: {json.dumps(response)}")
+    log("Native messaging host finished")
 
 if __name__ == "__main__":
     main()

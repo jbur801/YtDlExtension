@@ -1,0 +1,160 @@
+Native messaging host started
+reading
+Raw length data: b'\x02\x00\x00\x00'
+Message length: 2
+Received message: {}
+Processing message: {}
+Response sent: {"status": "success", "received": {}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'\x02\x00\x00\x00'
+Message length: 2
+Received message: {}
+Processing message: {}
+Response sent: {"status": "success", "received": {}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'!\x00\x00\x00'
+Message length: 33
+Received message: {"message":"I am a cool message"}
+Processing message: {"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b')\x00\x00\x00'
+Message length: 41
+Received message: {"tab":0,"message":"I am a cool message"}
+Processing message: {"tab":0,"message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": 0, "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'9\x00\x00\x00'
+Message length: 57
+Received message: {"tab":"unknown tab url","message":"I am a cool message"}
+Processing message: {"tab":"unknown tab url","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "unknown tab url", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'0\x00\x00\x00'
+Message length: 48
+Received message: {"tab":"u suck","message":"I am a cool message"}
+Processing message: {"tab":"u suck","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "u suck", "message": "I am a cool message"}}
+Native messaging host finished
+Native messaging host started
+reading
+Raw length data: b'0\x00\x00\x00'
+Message length: 48
+Received message: {"tab":"u suck","message":"I am a cool message"}
+Processing message: {"tab":"u suck","message":"I am a cool message"}
+Response sent: {"status": "success", "received": {"tab": "u suck", "message": "I am a cool message"}}
+Native messaging host finished

@@ -1,7 +1,7 @@
 {
     "name": "com.ddddd.ytdlp",
     "description": "Open VSCode",
-    "path": "yt-dlpHost.py",
+    "path": "dist/yt-dlpHost.exe",
     "type": "stdio",
     "allowed_origins": [
         "chrome-extension://mjidhcjkfbifjiogdkmckfebjfifllbc/"
